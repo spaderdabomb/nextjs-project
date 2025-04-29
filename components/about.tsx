@@ -17,32 +17,15 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      As a Santa Barbara local and fellow pet enthusiast, 
+      I founded Santa Barbara Sitters to offer the kind of trustworthy 
+      and loving care I'd want for my own furry friends. 
+      I understand how important it is to find someone reliable and compassionate when you can't be there. 
+      That's why I'm personally committed to ensuring your pets feel safe, happy, and comfortable in their own home. 
+      I offer personalized pet sitting services tailored to your pet's unique needs, 
+      giving you peace of mind knowing they're in caring hands right here in our beautiful Santa Barbara community.
       </p>
     </motion.section>
   );

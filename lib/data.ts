@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import luluImg from "@/public/lulu_1.png";
+import dog1 from "@/public/dog_01.png";
+import dog2 from "@/public/dog_02.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -16,11 +17,11 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Testimonials",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Services",
     hash: "#skills",
   },
   {
@@ -35,73 +36,69 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated High School",
+    location: "San Marcos High School, Santa Barbara",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years at San Marcos High School",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2015 - 2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Isenberg School of Management",
+    location: "UMass, Amherst",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I received my Bachelor's degree in Marketing from the Isenberg School of Managment.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Founded Santa Barbara Sitter",
+    location: "Santa Barbara, CA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I am motivated to bring a highly competitive, local service using my experience in business and lifelong love for animals!",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Mackenzie Devilbiss",
+    date: "April 12, 2025",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "\"Juliet gave us live updates of our dog Lulu and went out of her way to play tug while we were away! She made sure Lulu felt loved and gave us total peace of mind.\"",
+    tags: ["Lulu"],
+    imageUrl: luluImg,
   },
   {
-    title: "rmtDev",
+    title: "Christine Walker",
+    date: "Dec 27, 2024",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "\"Juliet took our dog Bella on plenty of long walks and made sure she got tons of playtime every day. We came home to a happy pup who clearly had the best time while we were away!\"",
+    tags: ["Bella"],
+    imageUrl: dog1,
   },
   {
-    title: "Word Analytics",
+    title: "Emily Carter",
+    date: "Sept 16, 2024",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "\"Juliet made sure our dog Rocky got long walks every day and sent us photo updates. It made being away so much easier knowing he was getting exercise and lots of love.\"",
+    tags: ["Rocky"],
+    imageUrl: dog2,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Dog Sitting",
+  "Cat Sitting",
+  "Dog Walking",
+  "Drop-In Visits",
+  "Overnight Stays",
+  "Light Grooming",
+  "Puppy/Senior Care",
+  "Medication",
+  "Exercise Sessions",
+  "House Sitting",
+  "Free Meet and Greet",
+  "Daily Photo Updates",
 ] as const;

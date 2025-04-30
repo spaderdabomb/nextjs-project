@@ -5,7 +5,6 @@ import { LuGraduationCap } from "react-icons/lu";
 import luluImg from "@/public/lulu_1.png";
 import dog1 from "@/public/dog_01.png";
 import dog2 from "@/public/dog_02.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {

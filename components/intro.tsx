@@ -62,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Welcome to <span className="font-bold">Santa Barbara Sitters</span> pet sitting website! We're 
+        Welcome to <span className="font-bold">Santa Barbara Sitters</span> pet sitting website! We&#39;re 
         <span className="font-bold"> excited</span> to offer
         <span className="font-bold"> personalized and trustworthy</span> care for your
         <span className="font-bold"> beloved pets</span> in our beautiful community.

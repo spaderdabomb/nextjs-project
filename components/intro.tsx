@@ -5,8 +5,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+// import { HiDownload } from "react-icons/hi";
+// import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -20,7 +20,15 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
+        <motion.h1
+          className="mb-10 mt-4 px-4 text-2xl !leading-[1.5] sm:text-4xl font-nunitoItalic"
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          <span className="text-6xl font-Nunito-MediumItalic">SANTA BARBARA SITTERS</span>
+        </motion.h1>     
+        
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -62,7 +70,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Welcome to <span className="font-bold">Santa Barbara Sitters</span> pet sitting website! We&#39;re 
+        Welcome to <span className="font-bold">Santa Barbara Sitters</span>! <br /> We&#39;re 
         <span className="font-bold"> excited</span> to offer
         <span className="font-bold"> personalized and trustworthy</span> care for your
         <span className="font-bold"> beloved pets</span> in our beautiful community.
@@ -88,14 +96,14 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
           Gallery{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
@@ -105,13 +113,13 @@ export default function Intro() {
           <BsLinkedin />
         </a>
 
-        <a
+        {/* <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com"
           target="_blank"
         >
           <FaGithubSquare />
-        </a>
+        </a> */}
       </motion.div>
     </section>
   );
